@@ -1,0 +1,15 @@
+{
+  "name": "@buildigo/eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:buildigo.org/common/eslint.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
