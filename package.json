@@ -1,15 +1,21 @@
 {
-  "name": "@buildigo/eslint",
-  "version": "1.0.0",
+  "name": "@buildigo.org/eslint",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": " "
+    "release": "standard-version --tag-prefix='' --releaseCommitMessageFormat='chore(release): {{currentTag}} [skip ci]'"
   },
   "repository": {
     "type": "git",
     "url": "git@gitlab.com:buildigo.org/common/eslint.git"
   },
+  "publishConfig": {
+    "@buildigo.org:registry": "https://gitlab.com/api/v4/projects/19545677/packages/npm/"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "standard-version": "^8.0.0"
+  }
 }
