@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.4.0 (2020-06-24)
+
+
+### Features
+
+* add eslintrc and publish scripts in CI ([4d791db](https://gitlab.com/buildigo.org/common/eslint/commit/4d791db65216eaf5c200aa97ba07d211420ef725))
+
 ## 1.3.0 (2020-06-23)
 
 
