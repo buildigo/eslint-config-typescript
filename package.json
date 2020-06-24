@@ -2,7 +2,6 @@
   "name": "@buildigo.org/eslint",
   "version": "1.3.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "release": "standard-version --tag-prefix='' --releaseCommitMessageFormat='chore(release): {{currentTag}} [skip ci]'"
   },
@@ -17,5 +16,16 @@
   "license": "ISC",
   "devDependencies": {
     "standard-version": "^8.0.0"
-  }
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "eslint-config-prettier": "^6.11.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.0.0"
+  },
+  "files": [
+    "index.js"
+  ]
 }
