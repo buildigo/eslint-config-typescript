@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://gitlab.com/buildigo.org/common/eslint/compare/1.4.0...1.4.1) (2020-06-25)
+
 ## 1.4.0 (2020-06-24)
 
 
