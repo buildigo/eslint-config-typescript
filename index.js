@@ -3,6 +3,9 @@ module.exports = {
         'eslint:recommended',
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
+        'plugin:import/errors',
+        'plugin:import/warnings',
+        'plugin:import/typescript',
         'prettier',
         'prettier/@typescript-eslint',
     ],
@@ -11,7 +14,7 @@ module.exports = {
         ecmaVersion: 2019,
         sourceType: 'module',
     },
-    plugins: ['@typescript-eslint'],
+    plugins: ['@typescript-eslint', 'import'],
     rules: {
         // ESLINT RULES
         'no-multi-spaces': 'error',
@@ -29,5 +32,9 @@ module.exports = {
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/no-unused-vars': ['error', {args: 'none'}],
         '@typescript-eslint/no-use-before-define': [2, {functions: true, classes: true}],
+
+        // IMPORT rules
+        'import/newline-after-import': ['error', {count: 1}],
+        'import/first': 'error',
     },
 }
