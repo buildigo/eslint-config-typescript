@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.9.0 (2020-07-10)
+
+
+### Features
+
+* add eslint-plugin-import with rules for import style ([01b0396](https://gitlab.com/buildigo.org/common/eslint-config-typescript/commit/01b0396b2f7b61cfb65c6c1713c409c51c7d4403))
+* add eslintrc and publish scripts in CI ([4d791db](https://gitlab.com/buildigo.org/common/eslint-config-typescript/commit/4d791db65216eaf5c200aa97ba07d211420ef725))
+
+
+### Bug Fixes
+
+* [@typescript-eslint](https://gitlab.com/typescript-eslint) is a peer dependency ([2000eca](https://gitlab.com/buildigo.org/common/eslint-config-typescript/commit/2000eca18fdf7933400976952050279e9c64f1dc))
+* update name to comply to eslint shareable configs ([f5ad07a](https://gitlab.com/buildigo.org/common/eslint-config-typescript/commit/f5ad07aad019f66f38c567f81d1b736f2d3b81d0))
+
 ## 1.8.0 (2020-07-07)
 
 
