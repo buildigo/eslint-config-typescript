@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://gitlab.com/buildigo.org/common/eslint-config-typescript/compare/1.10.0...1.11.0) (2020-08-05)
+
+
+### Features
+
+* no-use-before-define is allowed for classes ([be3123b](https://gitlab.com/buildigo.org/common/eslint-config-typescript/commit/be3123bf39fb3f56b67eb80458c37780f97fa7bb))
+
 ## 1.10.0 (2020-07-10)
 
 
