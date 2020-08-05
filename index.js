@@ -31,7 +31,7 @@ module.exports = {
         '@typescript-eslint/explicit-member-accessibility': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/no-unused-vars': ['error', {args: 'none'}],
-        '@typescript-eslint/no-use-before-define': [2, {functions: false, classes: true, variables: true}],
+        '@typescript-eslint/no-use-before-define': [2, {functions: false, classes: false, variables: true}],
 
         // IMPORT rules
         'import/newline-after-import': ['error', {count: 1}],
