@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.11.1](https://gitlab.com/buildigo.org/common/eslint-config-typescript/compare/1.11.0...1.11.1) (2020-09-18)
+
 ## [1.11.0](https://gitlab.com/buildigo.org/common/eslint-config-typescript/compare/1.10.0...1.11.0) (2020-08-05)
 
 
