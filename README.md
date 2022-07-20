@@ -1,4 +1,4 @@
-# @buildigo.org/eslint-config-typescript
+# @buildigo/eslint-config-typescript
 
 eslint config for typescript projects at buildigo.
 
