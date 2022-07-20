@@ -1,5 +1,5 @@
 {
-  "name": "@buildigo.org/eslint-config-typescript",
+  "name": "@buildigo/eslint-config-typescript",
   "version": "1.12.2",
   "description": "",
   "scripts": {
