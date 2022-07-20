@@ -7,13 +7,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:buildigo.org/common/eslint-config-typescript.git"
+    "url": "git@github.com:buildigo/eslint-config-typescript.git"
   },
-  "publishConfig": {
-    "@buildigo.org:registry": "https://gitlab.com/api/v4/projects/19545677/packages/npm/"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "mathieu.meylan@buildigo.ch",
+  "license": "Apache 2.0",
   "devDependencies": {
     "standard-version": "^9.0.0"
   },
