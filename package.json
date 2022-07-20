@@ -1,6 +1,6 @@
 {
   "name": "@buildigo/eslint-config-typescript",
-  "version": "1.12.2",
+  "version": "1.12.3",
   "description": "",
   "scripts": {
     "release": "standard-version --tag-prefix='' --releaseCommitMessageFormat='chore(release): {{currentTag}} [skip ci]'"
