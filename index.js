@@ -34,5 +34,6 @@ module.exports = {
         // IMPORT rules
         'import/newline-after-import': ['error', {count: 1}],
         'import/first': 'error',
+        'import/no-unresolved': 'error',
     },
 }
