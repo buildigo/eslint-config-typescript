@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.0.0 (2024-01-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* typescript-eslint must be v6 or higher, which comes with new defaults
+
+* upgrade all dependencies, including major @typescript-eslint/* to v6 ([cd3bf17](https://github.com/buildigo/eslint-config-typescript/commit/cd3bf175e2565a76f24ef21296f8ba8b518f24b7))
+
 ### 1.12.6 (2022-07-22)
 
 ### 1.12.5 (2022-07-20)
