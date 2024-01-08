@@ -3,6 +3,7 @@ module.exports = {
         'eslint:recommended',
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/stylistic',
         'plugin:import/errors',
         'plugin:import/warnings',
         'plugin:import/typescript',
@@ -30,6 +31,8 @@ module.exports = {
         '@typescript-eslint/explicit-member-accessibility': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/no-unused-vars': ['error', {args: 'none'}],
+        '@typescript-eslint/consistent-type-definitions': 'off',
+        '@typescript-eslint/no-explicit-any': ['error', {fixToUnknown: true}],
 
         // IMPORT rules
         'import/newline-after-import': ['error', {count: 1}],
